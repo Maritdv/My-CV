@@ -1,7 +1,7 @@
 /* Use this file to use your own styles*/
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /* Styles for the body */
 
@@ -50,14 +50,18 @@ body {
 	flex-basis: 1.4em;
 }
 
-.header-content {
- font-family: "times", sans-serif; /* Change 'Roboto' to your desired font */
-}
-
-.h5 {
- font-family: "times", sans-serif;
+.header-content{
+	font-family: "Courier Prime", monospace;
   font-weight: 400;
   font-style: normal;
 }
-.w-70 {
+
+
+.open_sans_font{
+	 font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
